@@ -26,7 +26,7 @@ function CalculateTriangleArea() {
 function RandomNumberGame() {
     var number = parseInt(document.getElementById("number").value);
     if (number < 1 || number > 10) {
-        document.getElementById("answer2").innerHTML = "Bad guess! Guess between 1 and 10.";
+        document.getElementById("answer2").innerHTML = "Bad guess! Guess between 1 and 10. Try Again.";
     } else {
         var random = Math.floor(Math.random() * 10);
         while (random == 0) {
@@ -48,7 +48,5 @@ function FindDaysTilChristmas() {
     }
     var one_day = 1000 * 60 * 60 * 24;
     document.getElementById("answer3").innerHTML = (Math.ceil((cmas.getTime() - today.getTime()) / (one_day)) +
-    " days left until Christmas!");
-    console.log(Math.ceil((cmas.getTime() - today.getTime()) / (one_day)) +
     " days left until Christmas!");
 }
