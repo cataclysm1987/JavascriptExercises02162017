@@ -33,9 +33,22 @@
     </div>
     <div class="container content-container">
         <h1>Write a JavaScript function to find the area of a triangle.</h1>
-
+        <form>
+            Side 1: <input type="text" name="side1" value="3" id="side1"><br>
+            Side 2: <input type="text" name="side2" value="4" id="side2"><br>
+            Side 3: <input type="text" name="side3" value="5" id="side3"><br>
+        </form>
+        <button id="calculate" class="btn-primary" onclick ="CalculateTriangleArea()">Calculate your Triangle Area</button>
+        <h3 id="answer1"></h3>
         <h1>Write a JavaScript function where the program takes a random integer between 1 to 10. Prompt the user is to input a number. If the user input is correct, display a message "You are correct" if not display "Try again"</h1>
+        <form>
+            Enter a Guess From 1 to 10: <input type="text" name="side1" value="3" id="number"><br>
+        </form>
+        <button id="number" class="btn-primary" onclick="RandomNumberGame()">Guess The Random Number!</button>
+        <h3 id="answer2"></h3>
         <h1>Write a JavaScript function that will calculate and display how many days left until Christmas.</h1>
+        <button id="christmas" class="btn-primary" onclick="FindDaysTilChristmas()">Calculate the Days Til Christmas!</button>
+        <h3 id="answer3"></h3>
     </div>
 </body>
 </html>

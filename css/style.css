@@ -1,4 +1,4 @@
-﻿﻿.bg {
+﻿.bg {
   background-image: url('https://cataclysm1987.github.io/Javascript-Exercises-2-3-2017/img/bg.jpg');
   position: relative;
   width: 100%;
@@ -53,6 +53,6 @@
 }
 
 body {
-    padding-top: 50px;
+    padding-top: 15px;
 }
 
