@@ -25,7 +25,7 @@ function CalculateTriangleArea() {
 
 function RandomNumberGame() {
     var number = parseInt(document.getElementById("number").value);
-    if (number < 1 || number > 10) {
+    if (number < 1 || number > 10 || isNaN(number)) {
         document.getElementById("answer2").innerHTML = "Bad guess! Guess between 1 and 10. Try Again.";
     } else {
         var random = Math.floor(Math.random() * 10) + 1;
